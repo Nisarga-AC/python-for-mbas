@@ -9,9 +9,8 @@ people = [
     "Samuel L. Jackson",
     "Daniel",
 ]
-
+people1 = ["Mattan", "Sarah"]
 random_bar = random.choice(bars)
-random_person = random.choice(people)
-random_person2 = random.choice(people)
-
+random_person = random.choice(people1)
+random_person2 = random.choice(people1)
 print(f"How about you go to {random_bar} with {random_person} and {random_person2}?")
